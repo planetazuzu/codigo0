@@ -1,42 +1,24 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { manifestPlugin } from "./vite-plugin-manifest";
-import { fixHtmlReferencesPlugin } from "./vite-plugin-fix-html-references";
-import { stripPreloadWarningPlugin } from "./vite-plugin-strip-preload-warning";
 /// <reference types="vitest" />
 
 // Detectar si estamos en GitHub Pages
-// GitHub Pages usa el formato: https://username.github.io/repository-name/
-const isGitHubPages = process.env.GITHUB_PAGES === 'true';
-const repositoryName = process.env.GITHUB_REPOSITORY_NAME || 'guia-tes-digital';
+const isGitHubPages = process.env.NODE_ENV === 'production' && process.env.GITHUB_PAGES === 'true';
+const repositoryName = process.env.GITHUB_REPOSITORY_NAME || 'codigo0';
 const base = isGitHubPages ? `/${repositoryName}/` : '/';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  // Base path para GitHub Pages (necesario para rutas SPA)
   base: base,
   server: {
     host: "::",
     port: 8096,
     fs: {
-      // Permitir acceso a archivos fuera del proyecto si es necesario
       strict: true,
     },
-    // SPA fallback: todas las rutas no encontradas redirigen a index.html
-    // Esto permite que React Router maneje el enrutamiento del lado del cliente
-    middlewareMode: false,
-  },
-  preview: {
-    port: 4173,
-    // Configurar preview para SPA routing
-    // Esto asegura que el servidor de preview también maneje rutas correctamente
   },
   plugins: [
     react(),
-    manifestPlugin(),
-    fixHtmlReferencesPlugin(), // Corregir referencias en index.html después del build
-    stripPreloadWarningPlugin(), // En dev: quitar preload que provocan advertencia "not used"
   ],
   resolve: {
     alias: {
