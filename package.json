@@ -5,12 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:local": "bash scripts/dev-local.sh",
     "build": "vite build && node scripts/verify-build.js",
-    "build:dev": "vite build --mode development",
-    "build:github": "GITHUB_PAGES=true GITHUB_REPOSITORY_NAME=guia-tes-digital npm run build",
-    "build:production": "NODE_ENV=production vite build && node scripts/verify-build.js",
-    "verify:build": "node scripts/verify-build.js",
     "preview": "vite preview --host",
     "start:production": "npx serve -s dist -l 8607",
     "test": "vitest",
@@ -19,10 +14,6 @@
     "test:coverage": "vitest --coverage",
     "test:run": "vitest run",
     "lint": "eslint .",
-    "verify:manual": "tsx scripts/verificar-manual.ts",
-    "scorm:generate": "tsx scripts/generate-scorm.ts",
-    "scorm:test": "tsx scripts/generate-scorm.ts",
-    "glossary:export": "tsx backend/scripts/generate-glossary-fixture.ts",
     "prepare": "husky install"
   },
   "dependencies": {
