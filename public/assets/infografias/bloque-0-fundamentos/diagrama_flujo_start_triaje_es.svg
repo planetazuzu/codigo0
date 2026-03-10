@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1700" viewBox="0 0 1000 1700" role="img" aria-label="Diagrama de flujo START para triaje en emergencias (español)">
+  <defs>
+    <style>
+      :root{
+        --bg:#f7f9fb;
+        --ink:#0f172a;
+        --muted:#334155;
+        --line:#94a3b8;
+        --box:#ffffff;
+
+        --red:#dc2626;
+        --yellow:#f59e0b;
+        --green:#16a34a;
+        --black:#111827;
+
+        --accent:#2563eb;
+      }
+      .title{font:800 34px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; fill:var(--ink);}
+      .subtitle{font:500 16px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; fill:var(--muted);}
+      .hdr{font:800 20px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; fill:var(--ink);}
+      .txt{font:500 16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; fill:var(--muted);}
+      .small{font:500 13px/1.4 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; fill:var(--muted);}
+
+      .box{fill:var(--box); stroke:var(--line); stroke-width:2;}
+      .boxStrong{fill:var(--box); stroke:var(--accent); stroke-width:2.5;}
+      .diamond{fill:var(--box); stroke:var(--line); stroke-width:2.5;}
+      .diamondRed{fill:var(--box); stroke:var(--red); stroke-width:2.8;}
+      .arrow{stroke:var(--line); stroke-width:3; fill:none; marker-end:url(#arrowHead);}
+      .arrowAccent{stroke:var(--accent); stroke-width:3.5; fill:none; marker-end:url(#arrowHeadAccent);}
+
+      .pillText{font:800 15px/1 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; fill:#fff;}
+      .legendText{font:700 14px/1.2 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; fill:var(--ink);}
+
+      .tagRed{fill:var(--red);}
+      .tagYellow{fill:var(--yellow);}
+      .tagGreen{fill:var(--green);}
+      .tagBlack{fill:var(--black);}
+
+      .iconStroke{stroke:var(--muted); stroke-width:2.2; fill:none; stroke-linecap:round; stroke-linejoin:round;}
+    </style>
+
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arrowHeadAccent" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#2563eb"/>
+    </marker>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="1600" fill="var(--bg)"/>
+
+  <!-- Header -->
+  <text x="500" y="70" text-anchor="middle" class="title">Triage START (Simple Triage and Rapid Treatment)</text>
+  <text x="500" y="105" text-anchor="middle" class="subtitle">Algoritmo de clasificación rápida en incidentes con múltiples víctimas</text>
+
+  <!-- Legend -->
+  <g filter="url(#shadow)">
+    <rect x="140" y="130" rx="16" ry="16" width="720" height="70" class="box"/>
+  </g>
+  <g transform="translate(170,152)">
+    <rect x="0" y="0" rx="12" ry="12" width="140" height="36" class="tagRed"/>
+    <text x="70" y="24" text-anchor="middle" class="pillText">ROJO</text>
+    <text x="160" y="24" class="legendText">Inmediato</text>
+
+    <rect x="290" y="0" rx="12" ry="12" width="140" height="36" class="tagYellow"/>
+    <text x="360" y="24" text-anchor="middle" class="pillText">AMARILLO</text>
+    <text x="450" y="24" class="legendText">Urgente</text>
+
+    <rect x="560" y="0" rx="12" ry="12" width="140" height="36" class="tagGreen"/>
+    <text x="630" y="24" text-anchor="middle" class="pillText">VERDE</text>
+    <text x="720" y="24" class="legendText">Leve</text>
+  </g>
+  <g transform="translate(170,188)">
+    <rect x="0" y="0" rx="12" ry="12" width="140" height="30" class="tagBlack"/>
+    <text x="70" y="20" text-anchor="middle" class="pillText" style="font-size:14px;">NEGRO</text>
+    <text x="160" y="20" class="legendText">Fallecido / Expectante</text>
+  </g>
+
+  <!-- Start box -->
+  <g filter="url(#shadow)">
+    <rect x="220" y="240" rx="18" ry="18" width="560" height="90" class="boxStrong"/>
+  </g>
+  <text x="500" y="275" text-anchor="middle" class="hdr">INICIO</text>
+  <text x="500" y="305" text-anchor="middle" class="txt">Evaluación rápida por víctima (≈ 30–60 s). Aplicar medidas básicas si procede.</text>
+
+  <path class="arrowAccent" d="M500,330 L500,385"/>
+
+  <!-- Decision 1: ¿Camina? -->
+  <g filter="url(#shadow)">
+    <polygon class="diamond" points="500,390 645,505 500,620 355,505"/>
+  </g>
+  <text x="500" y="495" text-anchor="middle" class="hdr">¿Camina?</text>
+  <text x="500" y="525" text-anchor="middle" class="small">(deambula por sí mismo)</text>
+
+  <!-- YES -> Verde -->
+  <text x="700" y="500" class="txt" style="fill:var(--green); font-weight:700;">Sí</text>
+  <path class="arrow" d="M645,505 C735,505 785,505 860,505"/>
+
+  <g filter="url(#shadow)">
+    <rect x="865" y="460" rx="16" ry="16" width="120" height="90" class="box"/>
+  </g>
+  <rect x="875" y="472" rx="12" ry="12" width="100" height="30" class="tagGreen"/>
+  <text x="925" y="493" text-anchor="middle" class="pillText">VERDE</text>
+  <text x="925" y="525" text-anchor="middle" class="small">Leve</text>
+
+  <!-- NO -> next -->
+  <text x="300" y="500" class="txt" style="font-weight:700;">No</text>
+  <path class="arrowAccent" d="M500,620 L500,675"/>
+
+  <!-- Decision 2: Respiración presente -->
+  <g filter="url(#shadow)">
+    <polygon class="diamondRed" points="500,680 660,810 500,940 340,810"/>
+  </g>
+  <text x="500" y="800" text-anchor="middle" class="hdr">¿Respira?</text>
+  <text x="500" y="830" text-anchor="middle" class="small">Si NO: abrir vía aérea</text>
+
+  <!-- No breathing -> Negro -->
+  <text x="695" y="805" class="txt" style="font-weight:700;">No</text>
+  <path class="arrow" d="M660,810 C745,810 805,810 860,810"/>
+  <g filter="url(#shadow)">
+    <rect x="865" y="765" rx="16" ry="16" width="120" height="105" class="box"/>
+  </g>
+  <rect x="875" y="777" rx="12" ry="12" width="100" height="30" class="tagBlack"/>
+  <text x="925" y="798" text-anchor="middle" class="pillText">NEGRO</text>
+  <text x="925" y="830" text-anchor="middle" class="small">Fallecido</text>
+  <text x="925" y="852" text-anchor="middle" class="small">/ expectante</text>
+
+  <!-- If starts breathing after opening airway -> Rojo -->
+  <text x="300" y="805" class="txt" style="font-weight:700;">Sí</text>
+  <path class="arrowAccent" d="M500,940 L500,990"/>
+
+  <!-- Decision 3: FR > 30 -->
+  <g filter="url(#shadow)">
+    <polygon class="diamond" points="500,995 660,1125 500,1255 340,1125"/>
+  </g>
+  <text x="500" y="1115" text-anchor="middle" class="hdr">¿FR &gt; 30 rpm?</text>
+  <text x="500" y="1145" text-anchor="middle" class="small">(frecuencia respiratoria)</text>
+
+  <!-- Yes -> Rojo -->
+  <text x="695" y="1120" class="txt" style="fill:var(--red); font-weight:700;">Sí</text>
+  <path class="arrow" d="M660,1125 C745,1125 805,1125 860,1125"/>
+  <g filter="url(#shadow)">
+    <rect x="865" y="1080" rx="16" ry="16" width="120" height="90" class="box"/>
+  </g>
+  <rect x="875" y="1092" rx="12" ry="12" width="100" height="30" class="tagRed"/>
+  <text x="925" y="1113" text-anchor="middle" class="pillText">ROJO</text>
+  <text x="925" y="1145" text-anchor="middle" class="small">Inmediato</text>
+
+  <!-- No -> Perfusion -->
+  <text x="300" y="1120" class="txt" style="font-weight:700;">No</text>
+  <path class="arrowAccent" d="M500,1255 L500,1310"/>
+
+  <!-- Decision 4: Perfusión -->
+  <g filter="url(#shadow)">
+    <polygon class="diamond" points="500,1315 660,1445 500,1575 340,1445"/>
+  </g>
+  <text x="500" y="1420" text-anchor="middle" class="hdr">Perfusión adecuada?</text>
+  <text x="500" y="1448" text-anchor="middle" class="small">Relleno capilar ≤ 2 s y pulso radial presente</text>
+
+  <!-- If inadequate -> Rojo -->
+  <text x="695" y="1440" class="txt" style="fill:var(--red); font-weight:700;">No</text>
+  <path class="arrow" d="M660,1445 C745,1445 805,1445 860,1445"/>
+  <g filter="url(#shadow)">
+    <rect x="865" y="1400" rx="16" ry="16" width="120" height="90" class="box"/>
+  </g>
+  <rect x="875" y="1412" rx="12" ry="12" width="100" height="30" class="tagRed"/>
+  <text x="925" y="1433" text-anchor="middle" class="pillText">ROJO</text>
+  <text x="925" y="1465" text-anchor="middle" class="small">Inmediato</text>
+
+  <!-- If adequate -> Mental -->
+  <text x="300" y="1440" class="txt" style="fill:var(--green); font-weight:700;">Sí</text>
+
+  <!-- Mental status box (placed below with connector) -->
+  <!-- Arrow down from perfusion diamond to mental box -->
+  <path class="arrowAccent" d="M500,1575 L500,1605"/>
+  <!-- expand viewBox height already fixed; so place mental box a bit higher within area by shifting diamond up? Not possible.
+       We'll place mental status box above perfusion diamond and connect from its bottom-left? Instead: add side branch to left below diamond (fits).
+  -->
+  <!-- Replace: Side branch to left for mental status -->
+  <path class="arrowAccent" d="M340,1445 C250,1445 215,1445 170,1445"/>
+  <g filter="url(#shadow)">
+    <rect x="20" y="1370" rx="18" ry="18" width="300" height="150" class="box"/>
+  </g>
+  <text x="170" y="1405" text-anchor="middle" class="hdr">Estado mental</text>
+  <text x="170" y="1436" text-anchor="middle" class="small">¿Obedece órdenes?</text>
+  <text x="170" y="1465" text-anchor="middle" class="small">• No obedece → ROJO</text>
+  <text x="170" y="1492" text-anchor="middle" class="small">• Obedece → AMARILLO</text>
+
+  <!-- From mental box to outcomes -->
+  <path class="arrow" d="M320,1415 C375,1415 400,1415 430,1415"/>
+  <text x="345" y="1395" class="small" style="fill:var(--red); font-weight:700;">No</text>
+  <g filter="url(#shadow)">
+    <rect x="435" y="1368" rx="16" ry="16" width="120" height="85" class="box"/>
+  </g>
+  <rect x="445" y="1380" rx="12" ry="12" width="100" height="30" class="tagRed"/>
+  <text x="495" y="1401" text-anchor="middle" class="pillText">ROJO</text>
+  <text x="495" y="1432" text-anchor="middle" class="small">Inmediato</text>
+
+  <path class="arrow" d="M320,1478 C380,1478 420,1478 480,1478"/>
+  <text x="350" y="1502" class="small" style="fill:var(--green); font-weight:700;">Sí</text>
+  <g filter="url(#shadow)">
+    <rect x="485" y="1435" rx="16" ry="16" width="140" height="90" class="box"/>
+  </g>
+  <rect x="495" y="1447" rx="12" ry="12" width="120" height="30" class="tagYellow"/>
+  <text x="555" y="1468" text-anchor="middle" class="pillText">AMARILLO</text>
+  <text x="555" y="1500" text-anchor="middle" class="small">Urgente</text>
+
+  <!-- Footer note -->
+  <text x="500" y="1660" text-anchor="middle" class="small">
+    Nota: En ausencia de respiración, abrir vía aérea. Si no respira tras apertura → NEGRO; si inicia respiración → ROJO.
+  </text>
+</svg>

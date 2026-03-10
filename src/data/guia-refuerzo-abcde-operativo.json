@@ -1,0 +1,141 @@
+{
+  "id": "refuerzo-abcde-operativo",
+  "titulo": "Guía de Refuerzo: ABCDE Operativo",
+  "subtitulo": "Comprensión Profunda del Enfoque ABCDE como Estructura Mental de Priorización",
+  "relacionadoCon": {
+    "tipo": "protocolo",
+    "idOperativo": "abcde-operativo",
+    "enlaceOperativo": "/escena?tab=abcde",
+    "tituloOperativo": "ABCDE Operativo"
+  },
+  "metadatos": {
+    "nivelDificultad": "intermedio",
+    "tiempoEstimado": 20,
+    "palabrasClave": ["abcde", "priorizacion", "estructura-mental", "evaluacion-primaria", "emergencias"],
+    "version": "1.0",
+    "fechaCreacion": "2026-01-11"
+  },
+  "secciones": [
+    {
+      "id": "introduccion",
+      "tipo": "introduccion",
+      "titulo": "Introducción y Contexto",
+      "orden": 1,
+      "archivoMarkdown": "/docs/consolidado/SECCION_01_ABCDE_OPERATIVO.md",
+      "bloques": [
+        {
+          "tipo": "texto_explicativo",
+          "contenido": {
+            "texto": "El enfoque ABCDE es una estructura mental de priorización que se aplica a todas las emergencias prehospitalarias, independientemente de la causa aparente o los síntomas visibles. Como Técnico de Emergencias Sanitarias, dominar este enfoque no es solo una competencia técnica, sino una herramienta fundamental que te permite pensar de manera estructurada bajo condiciones de estrés extremo, evitando errores de priorización que pueden comprometer la seguridad del paciente.\n\n**Objetivos de aprendizaje:**\n- Comprender el ABCDE como estructura mental, no como checklist\n- Entender por qué el orden es más importante que la rapidez\n- Visualizar cómo el ABCDE ayuda a pensar bajo estrés\n- Identificar y evitar errores frecuentes de priorización\n\n**Tiempo estimado:** 20 minutos\n\n**Prerrequisitos:** Conocimiento básico del protocolo operativo ABCDE"
+          }
+        },
+        {
+          "tipo": "caja_advertencia",
+          "contenido": {
+            "tipo": "importante",
+            "texto": "Esta guía es para **comprensión y formación**. Para acción inmediata en emergencia, consulta el [Protocolo Operativo ABCDE](/escena?tab=abcde)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "explicacion_clinica",
+      "tipo": "explicacion_clinica",
+      "titulo": "Explicación Clínica y Fisiopatología",
+      "orden": 2,
+      "archivoMarkdown": "/docs/consolidado/SECCION_02_ABCDE_OPERATIVO.md",
+      "bloques": [
+        {
+          "tipo": "texto_explicativo",
+          "contenido": {
+            "texto": "El ABCDE se basa en principios fisiológicos fundamentales que determinan el orden de prioridad. Cada letra representa una función vital que, si se compromete, puede llevar a la muerte o daño irreversible en un tiempo específico."
+          }
+        }
+      ]
+    },
+    {
+      "id": "algoritmo_comentado",
+      "tipo": "algoritmo_comentado",
+      "titulo": "Algoritmo Comentado Visual",
+      "orden": 3,
+      "archivoMarkdown": "/docs/consolidado/SECCION_03_ABCDE_OPERATIVO.md",
+      "bloques": [
+        {
+          "tipo": "infografia",
+          "contenido": {
+            "ruta": "/assets/infografias/bloque-0-fundamentos/abcde_introduccion_estructura_mental.svg",
+            "tipo": "algoritmo",
+            "descripcion": "Algoritmo visual del enfoque ABCDE como estructura mental de priorización"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medios_visuales",
+      "tipo": "medios_visuales",
+      "titulo": "Medios Visuales y Demostración",
+      "orden": 4,
+      "archivoMarkdown": "/docs/consolidado/SECCION_04_ABCDE_OPERATIVO.md",
+      "bloques": []
+    },
+    {
+      "id": "errores_frecuentes",
+      "tipo": "errores_frecuentes",
+      "titulo": "Errores Frecuentes Visualizados",
+      "orden": 5,
+      "archivoMarkdown": "/docs/consolidado/SECCION_05_ABCDE_OPERATIVO.md",
+      "bloques": []
+    },
+    {
+      "id": "casos_clinicos",
+      "tipo": "casos_clinicos",
+      "titulo": "Casos Clínicos",
+      "orden": 6,
+      "archivoMarkdown": "/docs/consolidado/SECCION_06_ABCDE_OPERATIVO.md",
+      "bloques": []
+    },
+    {
+      "id": "simulacion_mental",
+      "tipo": "simulacion_mental",
+      "titulo": "Simulación Mental Guiada",
+      "orden": 7,
+      "archivoMarkdown": "/docs/consolidado/SECCION_07_ABCDE_OPERATIVO.md",
+      "bloques": []
+    },
+    {
+      "id": "resumen_visual",
+      "tipo": "resumen_visual",
+      "titulo": "Resumen Visual y Puente al Operativo",
+      "orden": 8,
+      "archivoMarkdown": "/docs/consolidado/SECCION_08_ABCDE_OPERATIVO.md",
+      "bloques": []
+    }
+  ],
+  "referencias": {
+    "guiasOficiales": [
+      {
+        "nombre": "ERC Guidelines 2021",
+        "enlace": "https://www.erc.edu/",
+        "tipo": "guia_oficial"
+      },
+      {
+        "nombre": "ATLS Guidelines",
+        "enlace": "https://www.facs.org/quality-programs/trauma/atls",
+        "tipo": "guia_oficial"
+      }
+    ],
+    "enlacesRelacionados": [
+      {
+        "titulo": "Protocolo Operativo ABCDE",
+        "url": "/escena?tab=abcde",
+        "tipo": "protocolo_operativo"
+      },
+      {
+        "titulo": "Manual TES Digital - ABCDE",
+        "url": "/manual/parte-i-fundamentos/bloque-1-procedimientos-basicos/1.2.2",
+        "tipo": "capitulo_manual"
+      }
+    ]
+  }
+}
+

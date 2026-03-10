@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <!-- Fondo -->
+  <rect width="1000" height="1200" fill="#f8f9fa"/>
+  
+  <!-- Titulo -->
+  <rect x="20" y="20" width="960" height="80" fill="#fd7e14" rx="8"/>
+  <text x="500" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">OVACE LACTANTE (MENOR 1 ANO)</text>
+  
+  <!-- Diferencia clave -->
+  <rect x="100" y="130" width="800" height="80" fill="#dc3545" rx="8"/>
+  <text x="500" y="160" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">DIFERENCIA CRITICA</text>
+  <text x="500" y="190" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">COMPRESIONES TORACICAS, NO ABDOMINALES</text>
+  
+  <path d="M 500 210 L 500 240" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 1 -->
+  <rect x="100" y="250" width="800" height="100" fill="#ffc107" rx="8"/>
+  <circle cx="150" cy="300" r="30" fill="white"/>
+  <text x="150" y="310" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#856404" text-anchor="middle">1</text>
+  <text x="500" y="285" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">RECONOCER ATRAGANTAMIENTO</text>
+  <text x="500" y="310" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Tos ineficaz o ausente, no puede llorar</text>
+  <text x="500" y="335" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Cianosis, angustia</text>
+  
+  <path d="M 500 350 L 500 380" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Decision -->
+  <polygon points="500,390 640,460 500,530 360,460" fill="#17a2b8"/>
+  <text x="500" y="450" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">TOS EFICAZ?</text>
+  <text x="500" y="475" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">(Llora, tose)</text>
+  
+  <!-- SI: Leve -->
+  <path d="M 640 460 L 750 460" stroke="#28a745" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="700" y="450" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#28a745">SI</text>
+  
+  <rect x="760" y="410" width="200" height="100" fill="#d4edda" rx="8" stroke="#28a745" stroke-width="2"/>
+  <text x="860" y="450" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#155724" text-anchor="middle">LEVE</text>
+  <text x="860" y="475" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">NO intervenir</text>
+  <text x="860" y="495" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">Vigilar</text>
+  
+  <!-- NO: Grave -->
+  <path d="M 500 530 L 500 560" stroke="#dc3545" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="520" y="550" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">NO</text>
+  
+  <!-- Paso 2: Posicion -->
+  <rect x="100" y="570" width="800" height="120" fill="#17a2b8" rx="8"/>
+  <circle cx="150" cy="630" r="30" fill="white"/>
+  <text x="150" y="640" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0c5460" text-anchor="middle">2</text>
+  <text x="500" y="605" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">COLOCAR LACTANTE EN ANTEBRAZO</text>
+  <text x="500" y="630" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Boca abajo sobre antebrazo</text>
+  <text x="500" y="650" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Sujetar mandibula con mano</text>
+  <text x="500" y="670" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">CABEZA MAS BAJA QUE TRONCO</text>
+  
+  <path d="M 500 690 L 500 720" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 3: 5 Golpes espalda -->
+  <rect x="100" y="730" width="800" height="120" fill="#dc3545" rx="8"/>
+  <circle cx="150" cy="790" r="30" fill="white"/>
+  <text x="150" y="800" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#dc3545" text-anchor="middle">3</text>
+  <text x="500" y="770" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">5 GOLPES INTERESCAPULARES</text>
+  <text x="500" y="795" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Talon de la mano entre omoplatos</text>
+  <text x="500" y="815" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Golpes secos pero controlados</text>
+  <text x="500" y="835" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">5 golpes</text>
+  
+  <path d="M 500 850 L 500 880" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 4: Girar -->
+  <rect x="100" y="890" width="800" height="80" fill="#17a2b8" rx="8"/>
+  <circle cx="150" cy="930" r="30" fill="white"/>
+  <text x="150" y="940" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#0c5460" text-anchor="middle">4</text>
+  <text x="500" y="920" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">GIRAR LACTANTE</text>
+  <text x="500" y="950" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Boca arriba, cabeza mas baja que tronco</text>
+  
+  <path d="M 500 970 L 500 1000" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 5: Compresiones toracicas -->
+  <rect x="100" y="1010" width="800" height="120" fill="#6610f2" rx="8"/>
+  <circle cx="150" cy="1070" r="30" fill="white"/>
+  <text x="150" y="1080" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#6610f2" text-anchor="middle">5</text>
+  <text x="500" y="1045" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">5 COMPRESIONES TORACICAS</text>
+  <text x="500" y="1070" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">2 dedos en centro del torax (debajo linea mamilar)</text>
+  <text x="500" y="1090" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Comprimir 4 cm, ritmo mas lento que RCP</text>
+  <text x="500" y="1110" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">5 compresiones</text>
+  
+  <path d="M 150 1130 L 150 1160 L 500 1160 L 500 700" stroke="#ffc107" stroke-width="3" fill="none" marker-end="url(#arrowYellow)"/>
+  <text x="250" y="1150" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffc107">REPETIR hasta resolver</text>
+  
+  <!-- Nota -->
+  <rect x="520" y="1010" width="440" height="120" fill="#fff3cd" rx="8" stroke="#ffc107" stroke-width="2"/>
+  <text x="740" y="1040" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#856404" text-anchor="middle">CRITICO</text>
+  <text x="740" y="1060" font-family="Arial, sans-serif" font-size="13" fill="#856404" text-anchor="middle">NO compresiones</text>
+  <text x="740" y="1078" font-family="Arial, sans-serif" font-size="13" fill="#856404" text-anchor="middle">abdominales en lactante</text>
+  <text x="740" y="1096" font-family="Arial, sans-serif" font-size="13" fill="#856404" text-anchor="middle">(Riesgo lesion higado)</text>
+  <text x="740" y="1114" font-family="Arial, sans-serif" font-size="13" fill="#856404" text-anchor="middle">TORACICAS SIEMPRE</text>
+  
+  <!-- Definiciones -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+    </marker>
+    <marker id="arrowYellow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ffc107" />
+    </marker>
+  </defs>
+</svg>

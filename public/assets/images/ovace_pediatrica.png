@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1100" viewBox="0 0 1000 1100">
+  <!-- Fondo -->
+  <rect width="1000" height="1100" fill="#f8f9fa"/>
+  
+  <!-- Titulo -->
+  <rect x="20" y="20" width="960" height="80" fill="#fd7e14" rx="8"/>
+  <text x="500" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">OVACE PEDIATRICA (1-8 ANOS)</text>
+  
+  <!-- Diferencias con adulto -->
+  <rect x="100" y="130" width="800" height="60" fill="#17a2b8" rx="8"/>
+  <text x="500" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">MISMA TECNICA QUE ADULTO pero adaptando la FUERZA</text>
+  
+  <path d="M 500 190 L 500 220" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 1 -->
+  <rect x="100" y="230" width="800" height="100" fill="#ffc107" rx="8"/>
+  <circle cx="150" cy="280" r="30" fill="white"/>
+  <text x="150" y="290" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#856404" text-anchor="middle">1</text>
+  <text x="500" y="265" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">RECONOCER ATRAGANTAMIENTO</text>
+  <text x="500" y="290" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Tos ineficaz, no puede hablar, cianosis</text>
+  <text x="500" y="315" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Puede estar angustiado o inconsciente</text>
+  
+  <path d="M 500 330 L 500 360" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Decision -->
+  <polygon points="500,370 640,440 500,510 360,440" fill="#17a2b8"/>
+  <text x="500" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">PUEDE TOSER</text>
+  <text x="500" y="455" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">EFICAZMENTE?</text>
+  
+  <!-- SI: Leve -->
+  <path d="M 640 440 L 750 440" stroke="#28a745" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="700" y="430" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#28a745">SI</text>
+  
+  <rect x="760" y="390" width="200" height="100" fill="#d4edda" rx="8" stroke="#28a745" stroke-width="2"/>
+  <text x="860" y="430" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#155724" text-anchor="middle">LEVE</text>
+  <text x="860" y="455" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">Animar a toser</text>
+  <text x="860" y="475" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">Vigilar</text>
+  
+  <!-- NO: Grave -->
+  <path d="M 500 510 L 500 540" stroke="#dc3545" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="520" y="530" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">NO</text>
+  
+  <!-- Paso 2: 5 Golpes -->
+  <rect x="100" y="550" width="800" height="120" fill="#dc3545" rx="8"/>
+  <circle cx="150" cy="610" r="30" fill="white"/>
+  <text x="150" y="620" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#dc3545" text-anchor="middle">2</text>
+  <text x="500" y="590" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">5 GOLPES INTERESCAPULARES</text>
+  <text x="500" y="615" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Sentar o arrodillar al nino</text>
+  <text x="500" y="635" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Inclinar hacia delante</text>
+  <text x="500" y="655" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Talon de mano entre omoplatos, con MENOS fuerza que adulto</text>
+  
+  <path d="M 500 670 L 500 700" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 3: Heimlich adaptado -->
+  <rect x="100" y="710" width="800" height="180" fill="#6610f2" rx="8"/>
+  <circle cx="150" cy="800" r="30" fill="white"/>
+  <text x="150" y="810" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#6610f2" text-anchor="middle">3</text>
+  <text x="500" y="745" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">5 COMPRESIONES ABDOMINALES</text>
+  <text x="500" y="775" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Ponerse detras o de rodillas</text>
+  <text x="500" y="800" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Puno entre ombligo y xifoides</text>
+  <text x="500" y="825" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Comprimir DENTRO y ARRIBA</text>
+  <text x="500" y="850" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">FUERZA MODERADA (no como adulto)</text>
+  <text x="500" y="875" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">5 compresiones</text>
+  
+  <path d="M 500 890 L 500 920" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Repetir -->
+  <rect x="100" y="930" width="800" height="60" fill="#20c997" rx="8"/>
+  <text x="500" y="965" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">ALTERNAR: 5 golpes + 5 abdominales hasta resolver</text>
+  
+  <!-- Notas importantes -->
+  <rect x="50" y="1010" width="900" height="80" fill="#fff3cd" rx="8" stroke="#ffc107" stroke-width="2"/>
+  <text x="500" y="1040" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#856404" text-anchor="middle">IMPORTANTE EN NINOS</text>
+  <text x="500" y="1060" font-family="Arial, sans-serif" font-size="14" fill="#856404" text-anchor="middle">Si pierde consciencia: RCP (30:2). Mirar boca antes de ventilar</text>
+  <text x="500" y="1080" font-family="Arial, sans-serif" font-size="14" fill="#856404" text-anchor="middle">NUNCA barrer a ciegas con el dedo (empuja objeto mas adentro)</text>
+  
+  <!-- Definiciones -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+    </marker>
+  </defs>
+</svg>

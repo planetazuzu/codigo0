@@ -1,0 +1,125 @@
+{
+  "id": "refuerzo-desa-adulto",
+  "titulo": "Guía de Refuerzo: DESA Adulto",
+  "subtitulo": "Comprensión Profunda del Uso del Desfibrilador Externo Semiautomático en Adultos",
+  "relacionadoCon": {
+    "tipo": "protocolo",
+    "idOperativo": "desa-adulto",
+    "enlaceOperativo": "/rcp",
+    "tituloOperativo": "DESA Adulto"
+  },
+  "metadatos": {
+    "nivelDificultad": "intermedio",
+    "tiempoEstimado": 17,
+    "palabrasClave": ["desa", "desfibrilador", "desfibrilacion", "rcp", "ritmo-cardiaco", "adultos"],
+    "version": "1.0",
+    "fechaCreacion": "2026-01-11"
+  },
+  "secciones": [
+    {
+      "id": "introduccion",
+      "tipo": "introduccion",
+      "titulo": "Introducción y Contexto",
+      "orden": 1,
+      "archivoMarkdown": "/docs/consolidado/SECCION_01_DESA_ADULTO.md",
+      "bloques": [
+        {
+          "tipo": "texto_explicativo",
+          "contenido": {
+            "texto": "El DESA (Desfibrilador Externo Semiautomático) es un dispositivo diseñado para analizar el ritmo cardíaco y, si es necesario, administrar una descarga eléctrica que puede restaurar un ritmo cardíaco efectivo en personas que han sufrido una parada cardiorrespiratoria. La desfibrilación precoz es crítica porque el tiempo disponible para restaurar un ritmo efectivo es extremadamente limitado.\n\n**Objetivos de aprendizaje:**\n- Entender la fisiopatología de los ritmos desfibrilables\n- Comprender cómo funciona el DESA y por qué es crítico\n- Visualizar la integración del DESA en la RCP\n- Identificar y evitar errores frecuentes en el uso del DESA\n\n**Tiempo estimado:** 17 minutos\n\n**Prerrequisitos:** Conocimiento básico del protocolo operativo de DESA y RCP"
+          }
+        },
+        {
+          "tipo": "caja_advertencia",
+          "contenido": {
+            "tipo": "importante",
+            "texto": "Esta guía es para **comprensión y formación**. Para acción inmediata en emergencia, consulta el [Protocolo Operativo DESA](/rcp)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "explicacion_clinica",
+      "tipo": "explicacion_clinica",
+      "titulo": "Explicación Clínica y Fisiopatología",
+      "orden": 2,
+      "archivoMarkdown": "/docs/consolidado/SECCION_02_DESA_ADULTO.md",
+      "bloques": []
+    },
+    {
+      "id": "algoritmo_comentado",
+      "tipo": "algoritmo_comentado",
+      "titulo": "Algoritmo Comentado Visual",
+      "orden": 3,
+      "archivoMarkdown": "/docs/consolidado/SECCION_03_DESA_ADULTO.md",
+      "bloques": []
+    },
+    {
+      "id": "medios_visuales",
+      "tipo": "medios_visuales",
+      "titulo": "Medios Visuales y Demostración",
+      "orden": 4,
+      "archivoMarkdown": "/docs/consolidado/SECCION_04_DESA_ADULTO.md",
+      "bloques": []
+    },
+    {
+      "id": "errores_frecuentes",
+      "tipo": "errores_frecuentes",
+      "titulo": "Errores Frecuentes Visualizados",
+      "orden": 5,
+      "archivoMarkdown": "/docs/consolidado/SECCION_05_DESA_ADULTO.md",
+      "bloques": []
+    },
+    {
+      "id": "casos_clinicos",
+      "tipo": "casos_clinicos",
+      "titulo": "Casos Clínicos",
+      "orden": 6,
+      "archivoMarkdown": "/docs/consolidado/SECCION_06_DESA_ADULTO.md",
+      "bloques": []
+    },
+    {
+      "id": "simulacion_mental",
+      "tipo": "simulacion_mental",
+      "titulo": "Simulación Mental Guiada",
+      "orden": 7,
+      "archivoMarkdown": "/docs/consolidado/SECCION_07_DESA_ADULTO.md",
+      "bloques": []
+    },
+    {
+      "id": "resumen_visual",
+      "tipo": "resumen_visual",
+      "titulo": "Resumen Visual y Puente al Operativo",
+      "orden": 8,
+      "archivoMarkdown": "/docs/consolidado/SECCION_08_DESA_ADULTO.md",
+      "bloques": []
+    }
+  ],
+  "referencias": {
+    "guiasOficiales": [
+      {
+        "nombre": "ERC Guidelines 2021",
+        "enlace": "https://www.erc.edu/",
+        "tipo": "guia_oficial"
+      },
+      {
+        "nombre": "AHA Guidelines 2020",
+        "enlace": "https://www.heart.org/",
+        "tipo": "guia_oficial"
+      }
+    ],
+    "enlacesRelacionados": [
+      {
+        "titulo": "Protocolo Operativo DESA",
+        "url": "/rcp",
+        "tipo": "protocolo_operativo"
+      },
+      {
+        "titulo": "RCP Adulto SVB",
+        "url": "/guia/rcp-adulto-svb",
+        "tipo": "guia_refuerzo"
+      }
+    ]
+  }
+}
+

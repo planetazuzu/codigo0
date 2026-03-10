@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  <rect x="20" y="20" width="760" height="560" fill="white" stroke="#dee2e6" stroke-width="2" rx="8"/>
+  
+  <rect x="40" y="40" width="720" height="80" fill="#dc3545" rx="4"/>
+  <text x="400" y="85" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">ERROR COMUN ABCDE #1</text>
+  
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#212529" text-anchor="middle">SALTARSE LETRAS</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="18" fill="#495057" text-anchor="middle">Pasar de A directamente a C o D sin evaluar B</text>
+  
+  <circle cx="400" cy="340" r="80" fill="#fee" stroke="#dc3545" stroke-width="3"/>
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="60" fill="#dc3545" text-anchor="middle" font-weight="bold">A ’ D</text>
+  <line x1="370" y1="320" x2="430" y2="380" stroke="#dc3545" stroke-width="4"/>
+  <line x1="430" y1="320" x2="370" y2="380" stroke="#dc3545" stroke-width="4"/>
+  
+  <rect x="100" y="450" width="600" height="100" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="4"/>
+  <text x="400" y="485" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#856404" text-anchor="middle">CONSECUENCIA</text>
+  <text x="400" y="515" font-family="Arial, sans-serif" font-size="15" fill="#856404" text-anchor="middle">Puedes perder una hemorragia masiva (B)</text>
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="15" fill="#856404" text-anchor="middle">o una obstruccion de via aerea (A)</text>
+</svg>

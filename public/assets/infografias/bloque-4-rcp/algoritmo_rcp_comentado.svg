@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1400" viewBox="0 0 1000 1400">
+  <!-- Fondo -->
+  <rect width="1000" height="1400" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <rect x="20" y="20" width="960" height="80" fill="#dc3545" rx="8"/>
+  <text x="500" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">ALGORITMO RCP ADULTO SVB 2021</text>
+  
+  <!-- Paso 1: Seguridad -->
+  <rect x="100" y="130" width="800" height="80" fill="#28a745" rx="8"/>
+  <text x="500" y="175" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">1. SEGURIDAD DE LA ESCENA</text>
+  <text x="500" y="200" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Verificar que es seguro intervenir</text>
+  
+  <!-- Flecha -->
+  <path d="M 500 210 L 500 240" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 2: Consciencia -->
+  <rect x="100" y="250" width="800" height="80" fill="#ffc107" rx="8"/>
+  <text x="500" y="290" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">2. COMPROBAR CONSCIENCIA</text>
+  <text x="500" y="315" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Sacudir suavemente y gritar: "¿Estás bien?"</text>
+  
+  <!-- Decisión 1 -->
+  <path d="M 500 330 L 500 360" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <polygon points="500,370 600,420 500,470 400,420" fill="#17a2b8"/>
+  <text x="500" y="415" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">¿RESPONDE?</text>
+  <text x="500" y="435" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">(Se mueve/habla)</text>
+  
+  <!-- SÍ responde -->
+  <path d="M 600 420 L 750 420" stroke="#28a745" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <rect x="760" y="380" width="200" height="80" fill="#d4edda" rx="8" stroke="#28a745" stroke-width="2"/>
+  <text x="860" y="415" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#155724" text-anchor="middle">POSICIÓN</text>
+  <text x="860" y="435" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">DE SEGURIDAD</text>
+  <text x="860" y="455" font-family="Arial, sans-serif" font-size="12" fill="#155724" text-anchor="middle">Vigilar</text>
+  
+  <!-- NO responde -->
+  <path d="M 500 470 L 500 500" stroke="#dc3545" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="520" y="490" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">NO</text>
+  
+  <!-- Paso 3: Pedir ayuda -->
+  <rect x="100" y="510" width="800" height="80" fill="#dc3545" rx="8"/>
+  <text x="500" y="545" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">3. PEDIR AYUDA - LLAMAR 112</text>
+  <text x="500" y="570" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Activar cadena supervivencia. Pedir DESA</text>
+  
+  <path d="M 500 590 L 500 620" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 4: Respiración -->
+  <rect x="100" y="630" width="800" height="80" fill="#ffc107" rx="8"/>
+  <text x="500" y="665" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">4. ABRIR VÍA AÉREA - COMPROBAR RESPIRACIÓN</text>
+  <text x="500" y="690" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Maniobra frente-mentón. VER-OÍR-SENTIR (máx 10 seg)</text>
+  
+  <!-- Decisión 2 -->
+  <path d="M 500 710 L 500 740" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <polygon points="500,750 600,800 500,850 400,800" fill="#17a2b8"/>
+  <text x="500" y="795" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">¿RESPIRA</text>
+  <text x="500" y="815" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">NORMAL?</text>
+  
+  <!-- SÍ respira -->
+  <path d="M 600 800 L 750 800" stroke="#28a745" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <rect x="760" y="760" width="200" height="80" fill="#d4edda" rx="8" stroke="#28a745" stroke-width="2"/>
+  <text x="860" y="795" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#155724" text-anchor="middle">POSICIÓN</text>
+  <text x="860" y="815" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">LATERAL</text>
+  <text x="860" y="835" font-family="Arial, sans-serif" font-size="12" fill="#155724" text-anchor="middle">Vigilar</text>
+  
+  <!-- NO respira / Gasping -->
+  <path d="M 500 850 L 500 880" stroke="#dc3545" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="520" y="870" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">NO / Gasping</text>
+  
+  <!-- Paso 5: RCP -->
+  <rect x="100" y="890" width="800" height="100" fill="#dc3545" rx="8"/>
+  <text x="500" y="925" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">5. INICIAR RCP: 30 COMPRESIONES + 2 VENTILACIONES</text>
+  <text x="500" y="950" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Centro del tórax | 5-6 cm profundidad | 100-120/min</text>
+  <text x="500" y="975" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Descompresión completa | Minimizar interrupciones</text>
+  
+  <path d="M 500 990 L 500 1020" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 6: DESA -->
+  <rect x="100" y="1030" width="800" height="100" fill="#6610f2" rx="8"/>
+  <text x="500" y="1065" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">6. DESA EN CUANTO ESTÉ DISPONIBLE</text>
+  <text x="500" y="1090" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Encender ’ Seguir instrucciones ’ Colocar parches</text>
+  <text x="500" y="1115" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Si shock indicado: Descargar y reanudar RCP INMEDIATO</text>
+  
+  <path d="M 500 1130 L 500 1160" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Ciclo continuo -->
+  <rect x="100" y="1170" width="800" height="80" fill="#20c997" rx="8"/>
+  <text x="500" y="1205" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">7. CONTINUAR RCP 30:2 HASTA QUE:</text>
+  <text x="500" y="1235" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Llegue ayuda profesional | Paciente respire normal | Agotamiento</text>
+  
+  <!-- Notas importantes -->
+  <rect x="50" y="1280" width="900" height="100" fill="#fff3cd" rx="8" stroke="#ffc107" stroke-width="2"/>
+  <text x="500" y="1310" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#856404" text-anchor="middle">PUNTOS CLAVE</text>
+  <text x="500" y="1335" font-family="Arial, sans-serif" font-size="14" fill="#856404" text-anchor="middle">" Las compresiones son MÁS importantes que las ventilaciones</text>
+  <text x="500" y="1355" font-family="Arial, sans-serif" font-size="14" fill="#856404" text-anchor="middle">" Si solo/no puedes ventilar: SOLO COMPRESIONES continuas</text>
+  <text x="500" y="1375" font-family="Arial, sans-serif" font-size="14" fill="#856404" text-anchor="middle">" Cambiar de reanimador cada 2 min (5 ciclos) para evitar fatiga</text>
+  
+  <!-- Definición de flecha -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+    </marker>
+  </defs>
+</svg>

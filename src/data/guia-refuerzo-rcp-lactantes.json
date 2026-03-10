@@ -1,0 +1,125 @@
+{
+  "id": "refuerzo-rcp-lactantes",
+  "titulo": "Guía de Refuerzo: RCP Lactantes",
+  "subtitulo": "Comprensión Profunda de la Reanimación Cardiopulmonar en Lactantes",
+  "relacionadoCon": {
+    "tipo": "protocolo",
+    "idOperativo": "rcp-lactantes",
+    "enlaceOperativo": "/rcp",
+    "tituloOperativo": "RCP Lactantes"
+  },
+  "metadatos": {
+    "nivelDificultad": "avanzado",
+    "tiempoEstimado": 18,
+    "palabrasClave": ["rcp", "lactantes", "reanimacion", "bebes", "compresiones", "ventilacion"],
+    "version": "1.0",
+    "fechaCreacion": "2026-01-11"
+  },
+  "secciones": [
+    {
+      "id": "introduccion",
+      "tipo": "introduccion",
+      "titulo": "Introducción y Contexto",
+      "orden": 1,
+      "archivoMarkdown": "/docs/consolidado/SECCION_01_RCP_LACTANTES.md",
+      "bloques": [
+        {
+          "tipo": "texto_explicativo",
+          "contenido": {
+            "texto": "La Reanimación Cardiopulmonar en lactantes presenta las particularidades más específicas y técnicas más delicadas de todas las variantes de RCP. La anatomía y fisiología de los lactantes requiere técnicas adaptadas que difieren significativamente de las utilizadas en niños mayores y adultos.\n\n**Objetivos de aprendizaje:**\n- Entender las particularidades anatómicas y fisiológicas de los lactantes\n- Comprender las técnicas específicas de RCP en lactantes\n- Visualizar la técnica correcta con dos dedos o dos pulgares\n- Identificar y evitar errores frecuentes en RCP de lactantes\n\n**Tiempo estimado:** 18 minutos\n\n**Prerrequisitos:** Conocimiento básico del protocolo operativo de RCP en lactantes"
+          }
+        },
+        {
+          "tipo": "caja_advertencia",
+          "contenido": {
+            "tipo": "importante",
+            "texto": "Esta guía es para **comprensión y formación**. Para acción inmediata en emergencia, consulta el [Protocolo Operativo RCP Lactantes](/rcp)."
+          }
+        }
+      ]
+    },
+    {
+      "id": "explicacion_clinica",
+      "tipo": "explicacion_clinica",
+      "titulo": "Explicación Clínica y Fisiopatología",
+      "orden": 2,
+      "archivoMarkdown": "/docs/consolidado/SECCION_02_RCP_LACTANTES.md",
+      "bloques": []
+    },
+    {
+      "id": "algoritmo_comentado",
+      "tipo": "algoritmo_comentado",
+      "titulo": "Algoritmo Comentado Visual",
+      "orden": 3,
+      "archivoMarkdown": "/docs/consolidado/SECCION_03_RCP_LACTANTES.md",
+      "bloques": []
+    },
+    {
+      "id": "medios_visuales",
+      "tipo": "medios_visuales",
+      "titulo": "Medios Visuales y Demostración",
+      "orden": 4,
+      "archivoMarkdown": "/docs/consolidado/SECCION_04_RCP_LACTANTES.md",
+      "bloques": []
+    },
+    {
+      "id": "errores_frecuentes",
+      "tipo": "errores_frecuentes",
+      "titulo": "Errores Frecuentes Visualizados",
+      "orden": 5,
+      "archivoMarkdown": "/docs/consolidado/SECCION_05_RCP_LACTANTES.md",
+      "bloques": []
+    },
+    {
+      "id": "casos_clinicos",
+      "tipo": "casos_clinicos",
+      "titulo": "Casos Clínicos",
+      "orden": 6,
+      "archivoMarkdown": "/docs/consolidado/SECCION_06_RCP_LACTANTES.md",
+      "bloques": []
+    },
+    {
+      "id": "simulacion_mental",
+      "tipo": "simulacion_mental",
+      "titulo": "Simulación Mental Guiada",
+      "orden": 7,
+      "archivoMarkdown": "/docs/consolidado/SECCION_07_RCP_LACTANTES.md",
+      "bloques": []
+    },
+    {
+      "id": "resumen_visual",
+      "tipo": "resumen_visual",
+      "titulo": "Resumen Visual y Puente al Operativo",
+      "orden": 8,
+      "archivoMarkdown": "/docs/consolidado/SECCION_08_RCP_LACTANTES.md",
+      "bloques": []
+    }
+  ],
+  "referencias": {
+    "guiasOficiales": [
+      {
+        "nombre": "ERC Guidelines 2021 - Neonatal",
+        "enlace": "https://www.erc.edu/",
+        "tipo": "guia_oficial"
+      },
+      {
+        "nombre": "AHA Guidelines 2020 - Neonatal",
+        "enlace": "https://www.heart.org/",
+        "tipo": "guia_oficial"
+      }
+    ],
+    "enlacesRelacionados": [
+      {
+        "titulo": "Protocolo Operativo RCP Lactantes",
+        "url": "/rcp",
+        "tipo": "protocolo_operativo"
+      },
+      {
+        "titulo": "RCP Pediátrica",
+        "url": "/guia/rcp-pediatrica",
+        "tipo": "guia_refuerzo"
+      }
+    ]
+  }
+}
+

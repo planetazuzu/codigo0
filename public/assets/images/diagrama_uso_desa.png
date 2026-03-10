@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <!-- Fondo -->
+  <rect width="1000" height="1200" fill="#f8f9fa"/>
+  
+  <!-- Título -->
+  <rect x="20" y="20" width="960" height="70" fill="#6610f2" rx="8"/>
+  <text x="500" y="65" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">ALGORITMO USO DEL DESA (Desfibrilador)</text>
+  
+  <!-- Contexto previo -->
+  <rect x="100" y="120" width="800" height="60" fill="#dc3545" rx="8"/>
+  <text x="500" y="155" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">CONTEXTO: Paciente inconsciente que NO respira normal</text>
+  
+  <path d="M 500 180 L 500 210" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 1 -->
+  <rect x="100" y="220" width="800" height="80" fill="#6610f2" rx="8"/>
+  <circle cx="150" cy="260" r="30" fill="white"/>
+  <text x="150" y="270" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#6610f2" text-anchor="middle">1</text>
+  <text x="500" y="255" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">ENCENDER EL DESA</text>
+  <text x="500" y="285" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Pulsar botón de encendido. Seguir instrucciones de voz</text>
+  
+  <path d="M 500 300 L 500 330" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 2 -->
+  <rect x="100" y="340" width="800" height="100" fill="#17a2b8" rx="8"/>
+  <circle cx="150" cy="390" r="30" fill="white"/>
+  <text x="150" y="400" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#17a2b8" text-anchor="middle">2</text>
+  <text x="500" y="375" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">COLOCAR PARCHES/ELECTRODOS</text>
+  <text x="500" y="400" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Descubrir tórax completamente. Secar si está mojado</text>
+  <text x="500" y="420" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Infraclavicular derecho + Apex izquierdo (bajo axila)</text>
+  
+  <!-- Mini diagrama posición electrodos -->
+  <g>
+    <ellipse cx="250" cy="520" rx="60" ry="80" fill="none" stroke="#6c757d" stroke-width="2"/>
+    <rect x="210" y="465" width="40" height="30" fill="#ffc107" rx="3"/>
+    <text x="230" y="482" font-family="Arial, sans-serif" font-size="12" fill="#000" font-weight="bold" text-anchor="middle">R</text>
+    <rect x="230" y="570" width="40" height="30" fill="#ffc107" rx="3"/>
+    <text x="250" y="587" font-family="Arial, sans-serif" font-size="12" fill="#000" font-weight="bold" text-anchor="middle">L</text>
+    <text x="250" y="625" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">Posición correcta</text>
+  </g>
+  
+  <path d="M 500 650 L 500 680" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 3 -->
+  <rect x="100" y="690" width="800" height="80" fill="#ffc107" rx="8"/>
+  <circle cx="150" cy="730" r="30" fill="white"/>
+  <text x="150" y="740" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#856404" text-anchor="middle">3</text>
+  <text x="500" y="720" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">NO TOCAR AL PACIENTE</text>
+  <text x="500" y="750" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">El DESA está analizando el ritmo cardíaco</text>
+  
+  <path d="M 500 770 L 500 800" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Decisión -->
+  <polygon points="500,810 640,880 500,950 360,880" fill="#20c997"/>
+  <text x="500" y="870" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">¿DESCARGA</text>
+  <text x="500" y="895" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">INDICADA?</text>
+  
+  <!-- SÍ: Descarga indicada -->
+  <path d="M 640 880 L 750 880" stroke="#dc3545" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="700" y="870" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">SÍ</text>
+  
+  <rect x="760" y="820" width="200" height="120" fill="#dc3545" rx="8"/>
+  <circle cx="860" cy="870" r="25" fill="white"/>
+  <text x="860" y="880" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#dc3545" text-anchor="middle">4A</text>
+  <text x="860" y="910" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">DESCARGA</text>
+  <text x="860" y="930" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">"NADIE TOCA"</text>
+  
+  <path d="M 860 940 L 860 980" stroke="#fff" stroke-width="3" fill="none" marker-end="url(#arrowWhite)"/>
+  
+  <!-- NO: Descarga NO indicada -->
+  <path d="M 360 880 L 250 880" stroke="#28a745" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="300" y="870" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#28a745">NO</text>
+  
+  <rect x="50" y="820" width="200" height="120" fill="#28a745" rx="8"/>
+  <circle cx="150" cy="870" r="25" fill="white"/>
+  <text x="150" y="880" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#28a745" text-anchor="middle">4B</text>
+  <text x="150" y="910" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">NO DESCARGA</text>
+  <text x="150" y="930" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">Continuar RCP</text>
+  
+  <path d="M 150 940 L 150 980" stroke="#fff" stroke-width="3" fill="none" marker-end="url(#arrowWhite)"/>
+  
+  <!-- Convergencia: Reanudar RCP -->
+  <rect x="100" y="990" width="800" height="80" fill="#dc3545" rx="8"/>
+  <circle cx="150" cy="1030" r="30" fill="white"/>
+  <text x="150" y="1040" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#dc3545" text-anchor="middle">5</text>
+  <text x="500" y="1020" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">REANUDAR RCP INMEDIATAMENTE</text>
+  <text x="500" y="1050" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">30 compresiones + 2 ventilaciones durante 2 minutos</text>
+  
+  <path d="M 500 1070 L 500 1100" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Repetir -->
+  <rect x="100" y="1110" width="800" height="60" fill="#6610f2" rx="8"/>
+  <text x="500" y="1145" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">El DESA volverá a analizar cada 2 minutos. REPETIR ciclo</text>
+  
+  <!-- Nota final -->
+  <rect x="50" y="1190" width="900" height="0" fill="none"/>
+  
+  <!-- Definiciones de flechas -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+    </marker>
+    <marker id="arrowWhite" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#fff" />
+    </marker>
+  </defs>
+</svg>

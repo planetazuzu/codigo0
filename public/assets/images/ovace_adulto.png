@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1200" viewBox="0 0 1000 1200">
+  <!-- Fondo -->
+  <rect width="1000" height="1200" fill="#f8f9fa"/>
+  
+  <!-- Titulo -->
+  <rect x="20" y="20" width="960" height="80" fill="#fd7e14" rx="8"/>
+  <text x="500" y="70" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">OVACE ADULTO - MANIOBRA HEIMLICH</text>
+  
+  <!-- Contexto -->
+  <rect x="100" y="130" width="800" height="60" fill="#dc3545" rx="8"/>
+  <text x="500" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">OBSTRUCCION VIA AEREA POR CUERPO EXTRANO</text>
+  
+  <path d="M 500 190 L 500 220" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Paso 1: Reconocer -->
+  <rect x="100" y="230" width="800" height="100" fill="#ffc107" rx="8"/>
+  <circle cx="150" cy="280" r="30" fill="white"/>
+  <text x="150" y="290" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#856404" text-anchor="middle">1</text>
+  <text x="500" y="265" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">RECONOCER ATRAGANTAMIENTO</text>
+  <text x="500" y="290" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">Signo universal: Manos al cuello</text>
+  <text x="500" y="315" font-family="Arial, sans-serif" font-size="16" fill="#000" text-anchor="middle">No puede hablar, toser ni respirar</text>
+  
+  <path d="M 500 330 L 500 360" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Decision: Leve vs Grave -->
+  <polygon points="500,370 640,440 500,510 360,440" fill="#17a2b8"/>
+  <text x="500" y="430" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">PUEDE TOSER</text>
+  <text x="500" y="455" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">CON FUERZA?</text>
+  
+  <!-- SI: Obstruccion leve -->
+  <path d="M 640 440 L 750 440" stroke="#28a745" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="700" y="430" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#28a745">SI</text>
+  
+  <rect x="760" y="380" width="200" height="120" fill="#d4edda" rx="8" stroke="#28a745" stroke-width="2"/>
+  <text x="860" y="420" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#155724" text-anchor="middle">LEVE</text>
+  <text x="860" y="445" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">Animar a toser</text>
+  <text x="860" y="465" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">NO golpear espalda</text>
+  <text x="860" y="485" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">Vigilar</text>
+  
+  <!-- NO: Obstruccion grave -->
+  <path d="M 500 510 L 500 540" stroke="#dc3545" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="520" y="530" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">NO</text>
+  
+  <!-- Paso 2: 5 Golpes interescapulares -->
+  <rect x="100" y="550" width="800" height="120" fill="#dc3545" rx="8"/>
+  <circle cx="150" cy="610" r="30" fill="white"/>
+  <text x="150" y="620" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#dc3545" text-anchor="middle">2</text>
+  <text x="500" y="590" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">5 GOLPES INTERESCAPULARES</text>
+  <text x="500" y="615" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Inclinar paciente hacia delante</text>
+  <text x="500" y="635" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Talon de la mano entre omoplatos</text>
+  <text x="500" y="655" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Golpes secos y fuertes</text>
+  
+  <path d="M 500 670 L 500 700" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Decision intermedia -->
+  <polygon points="500,710 600,760 500,810 400,760" fill="#20c997"/>
+  <text x="500" y="755" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">SE RESOLVIO?</text>
+  <text x="500" y="775" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">(Expulsa objeto)</text>
+  
+  <!-- SI resolvio -->
+  <path d="M 600 760 L 700 760" stroke="#28a745" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="655" y="750" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#28a745">SI</text>
+  <rect x="710" y="720" width="250" height="80" fill="#d4edda" rx="8" stroke="#28a745" stroke-width="2"/>
+  <text x="835" y="755" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#155724" text-anchor="middle">VIGILAR</text>
+  <text x="835" y="780" font-family="Arial, sans-serif" font-size="14" fill="#155724" text-anchor="middle">Puede quedar material</text>
+  
+  <!-- NO resolvio -->
+  <path d="M 500 810 L 500 840" stroke="#dc3545" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="520" y="830" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc3545">NO</text>
+  
+  <!-- Paso 3: Maniobra Heimlich -->
+  <rect x="100" y="850" width="800" height="180" fill="#6610f2" rx="8"/>
+  <circle cx="150" cy="940" r="30" fill="white"/>
+  <text x="150" y="950" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#6610f2" text-anchor="middle">3</text>
+  <text x="500" y="885" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">5 COMPRESIONES ABDOMINALES (HEIMLICH)</text>
+  <text x="500" y="915" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Situarse detras del paciente</text>
+  <text x="500" y="940" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Puno cerrado entre ombligo y apendice xifoides</text>
+  <text x="500" y="965" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Segunda mano sobre el puno</text>
+  <text x="500" y="990" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">Comprimir hacia DENTRO y ARRIBA</text>
+  <text x="500" y="1015" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">5 compresiones rapidas</text>
+  
+  <path d="M 500 1030 L 500 1060" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Repetir ciclo -->
+  <rect x="100" y="1070" width="800" height="60" fill="#20c997" rx="8"/>
+  <text x="500" y="1105" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">ALTERNAR: 5 golpes espalda + 5 Heimlich hasta que se resuelva</text>
+  
+  <!-- Notas -->
+  <rect x="50" y="1150" width="900" height="40" fill="#f8d7da" rx="8" stroke="#dc3545" stroke-width="2"/>
+  <text x="500" y="1175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#721c24" text-anchor="middle">Si pierde consciencia: Iniciar RCP. Antes de cada ventilacion, mirar si hay objeto visible y extraerlo</text>
+  
+  <!-- Definiciones -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333" />
+    </marker>
+  </defs>
+</svg>
